@@ -14,4 +14,5 @@ The detailed functions are described as follow:
 
 My contribution is to add the dragging function to Minesweeper. It will allow users to see the result of a tile without opening it, which reduced the game difficulty.
 
-![](resources/Demo.png)
+
+![](resources/Demo1.png) ![](resources/Demo.png)
