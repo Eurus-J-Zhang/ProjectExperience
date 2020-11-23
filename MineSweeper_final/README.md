@@ -1,6 +1,6 @@
 # Introduction of this program
 
-This is the individual program of a course that gives us hands-on experience with JavaFX. Here, I further developed Minesweeper with a focus on more interactive functions, which includes timing, mouse left-click, right-click, keyboard entering and dragging. 
+This is the individual project on experiencing JavaFX. Here, I further developed Minesweeper with a focus on more interactive functions, which include timing, mouse left-click, right-click, keyboard entering and dragging. 
 
 The detailed functions are described as follow:
 1. Press Enter in the text field to open a new window
