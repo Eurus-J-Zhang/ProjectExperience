@@ -7,3 +7,4 @@ The more detailed description is in the [Report](https://github.com/Eurus-J-Zhan
 My contribution for this group work is to design and develop the interfaces, as well as the transition logic. 
 
 
+![](resources/Group 1.png)
