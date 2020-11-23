@@ -12,7 +12,7 @@ The detailed functions are described as follow:
 7. Click on Close to close the window
 8. If opening a mine, it would print out 'Game Over'
 
-My contribution is to add the dragging function to Minesweeper. It will allow users to see the result of a tile without opening it, which reduced the game difficulty.
+My contribution is to add the dragging function to Minesweeper. It will allow users to see the result of a tile without opening it, which reduces the game difficulties but increases the user interactions.
 
 
 ![](resources/Demo1.png) ![](resources/Demo.png)
