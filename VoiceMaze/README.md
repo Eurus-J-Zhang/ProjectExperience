@@ -7,4 +7,5 @@ The more detailed description is in the [Report](https://github.com/Eurus-J-Zhan
 My contribution for this group work is to design and develop the interfaces, as well as the transition logic. 
 
 
-![](resources/Group1.png | width=48)
+
+<img src="https://github.com/Eurus-J-Zhang/ProjectExperience/edit/main/VoiceMaze/resources/Group1.png" width="300">
