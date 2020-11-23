@@ -6,6 +6,5 @@ The more detailed description is in the [Report](https://github.com/Eurus-J-Zhan
 
 My contribution for this group work is to design and develop the interfaces, as well as the transition logic. 
 
-
-
-<img src="https://github.com/Eurus-J-Zhang/ProjectExperience/edit/main/VoiceMaze/resources/Group1.png" width="300">
+<img src="resources/Group1.png" width="400">    <img src="resources/Group2.png" width="400" > 
+<img src="resources/Group3.png" width="400">    <img src="resources/Group4.png" width="400">
