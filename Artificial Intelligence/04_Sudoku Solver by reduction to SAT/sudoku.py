@@ -19,18 +19,16 @@ def allpairs(lst): # Helper function for atMost1
   return [ (lst[i],lst[j]) for i in range(0,len(lst)) for j in range(i+1,len(lst)) ]
 
 def atMost1(fmas):
-    
+### IMPLEMENT THIS #
     return AND([NOT(AND([f1,f2])) for f1,f2 in allpairs(fmas)])
     
-### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
-### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
-### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
+
 
 def exactly1(fmas):
+  
+### IMPLEMENT THIS #
     return AND([atLeast1(fmas),atMost1(fmas)])
-### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
-### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
-### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
+
 
 ######### Translation of Sudoku to propositional logic #########
 
@@ -56,19 +54,16 @@ def sudoku2fma(puzzle):
     C1 = AND([ exactly1([ S(c,r,n) for n in range(1,10) ]) for r in range(1,10) for c in range(1,10) ])
 
     # Every row has all numbers
+        ### IMPLEMENT THIS #
     C2 = AND([ exactly1([ S(c,r,n) for c in range(1,10) ]) for r in range(1,10) for n in range(1,10) ])
     
-    ### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
-    
     # Every column has all numbers
+        ### IMPLEMENT THIS #
     C3 = AND([ exactly1([ S(c,r,n) for r in range(1,10) ]) for c in range(1,10) for n in range(1,10) ])
     
-    ### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
-
     # Every 3X3 sub-grid has all numbers
+        ### IMPLEMENT THIS #
     C4 = AND([ exactly1([S(c,r,n) for c in range(i*3+1,i*3+4) for r in range(j*3+1,j*3+4)]) for i in range(0,3) for j in range(0,3) for n in range(1,10)])
-    
-    ### IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ## IMPLEMENT THIS ###
     
     # The solution respects the given clues
     C5 = AND([ S(x,y,n) for (x,y,n) in puzzle ])
