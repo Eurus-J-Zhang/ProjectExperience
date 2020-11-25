@@ -15,4 +15,5 @@ The interesting part in this project is about the signal processing using method
 * ICA is about separating a multivariate signal into subcomponents.
 * PCA is about data dimensionality reduction, using the first few principal components to represent the whole data.
 * MCCA is about defining the stucture in each variate, as well as the relationships among multiple sets of variables.
+
 These methods can be quite informative for the data comprehension and processing.
