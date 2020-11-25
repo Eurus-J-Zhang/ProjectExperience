@@ -11,4 +11,4 @@ in control and management of complex systems, information technology, and autono
 * Game-theoretic and adversarial decision-making
 * Adaptation and learning, especially reinforcement learning
 
-My contribution was to develop and complete the codes that the teacher provided. It improved my skills of reading and writing in Python.
+My contribution was to develop and complete the codes that the teacher provided. It improved my skills of reading and writing in Python, as well as my knowledge on AI and its implementations. 
