@@ -10,3 +10,14 @@ Another feature will be to allow the user to specify an activity of a particular
 That is, say a report required for lab must be written and 3 hours is allowed for this task, 
 the application may for example schedule three hour long slots within the week to for this task. 
 
+We prepared a template for users to input their workload, the file would be used as input for the application.
+
+<img src="resources/input.jpg" width="700">
+
+The output file was an empty file like this
+
+<img src="resources/empty_output.jpg" width="700">
+
+After processing user's input file, it would be filled up as user's designed schedule.
+
+<img src="resources/output_result.jpg" width="700">
