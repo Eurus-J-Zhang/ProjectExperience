@@ -1,0 +1,64 @@
+<block xmlns="http://www.w3.org/1999/xhtml" type="design" id="dgQLo5]#m?)IBL%K%)1s">
+  <field name="designName">Preattention-Experiment</field>
+  <field name="designColor">#3333ff</field>
+  <field name="numberOfParticipants">6</field>
+  <field name="averageDuration">2</field>
+  <field name="intertrialTime">1</field>
+  <field name="interblockTime">0</field>
+  <statement name="blockInput">
+    <block type="block" id="1v-gHw9?GjFU9js=JOQW">
+      <field name="counterbalancingStrategy">latin</field>
+      <field name="replications">1</field>
+      <field name="serial">false</field>
+      <statement name="independentVariables">
+        <block type="independentvariable" id="x]DG`NsVsy9[v[`u)bF{">
+          <field name="ivID">VV</field>
+          <field name="ivName">Visual Variable</field>
+          <statement name="levels">
+            <block type="level" id="QsHoOIO~Iz0x+/gJB}Df">
+              <field name="levelName">Color</field>
+              <next>
+                <block type="level" id="_}y.,X~N#vynDxdeYaNp">
+                  <field name="levelName">Size</field>
+                  <next>
+                    <block type="level" id="h1T(.%,JN54E*TwsUqW8">
+                      <field name="levelName">ColorSize</field>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+      <statement name="blocks">
+        <block type="block" id="},=EY8C{}O-c%d6l}Opk">
+          <field name="counterbalancingStrategy">random</field>
+          <field name="replications">6</field>
+          <field name="serial">false</field>
+          <statement name="independentVariables">
+            <block type="independentvariable" id="C2DL,$lzd!Dfpc?Pl5O{">
+              <field name="ivID">OC</field>
+              <field name="ivName">ObjectCount</field>
+              <statement name="levels">
+                <block type="level" id="ULt_;HqcjQ^0WZz,},Fb">
+                  <field name="levelName">Small</field>
+                  <next>
+                    <block type="level" id="r$+`keRV@k*)Q.QD#^f5">
+                      <field name="levelName">Medium</field>
+                      <next>
+                        <block type="level" id="!_:vi[AZo}YBg91jDW31">
+                          <field name="levelName">Large</field>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </statement>
+</block>
