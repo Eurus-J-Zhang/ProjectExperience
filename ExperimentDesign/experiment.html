@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Preattention Experiment</title>
+    <script type="text/javascript" src="js/d3.v5.min.js">
+    </script>
+    <script src="js/experiment.js"></script>
+
+    <style>
+
+        body {
+          background-color: white;
+        }
+
+        #form {
+          background-color: white;
+        }
+
+        .formLb {
+          font-family:sans-serif;
+          font-size:70%;
+          padding-left: 2em;
+          padding-right: 0.5em;
+        }
+
+        .centered {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 1em;
+        }
+
+        .instr {
+          font-family:sans-serif;
+          background-color: white;
+          text-align: center;
+          margin-left: 0em;
+          margin-top: 2em;
+          font-size:200%;
+          width:800px;
+          max-width:800px;
+          display: inline-block;
+        }
+
+
+      </style>
+
+      <script>
+        var ignore = function(event) {
+          event.preventDefault();
+        }
+        var ignoreSpace = function(event) {
+          if(event.code == "Space") event.preventDefault();
+        }
+      </script>
+
+  </head>
+
+
+  <body onload="createScene();"  onkeydown="ignoreSpace(event);" onkeyup="keyListener(event);">
+    <div>
+      <form id="form">
+
+        <span class="formLb">Participant:</span>
+        <select class="select" id="participantSel" onchange="onchangeParticipant()"></select>
+
+        <span class="formLb">Block:</span>
+        <select class="select" id="blockSel" onchange="onchangeBlock()"></select>
+
+        <span class="formLb">Trial:</span>
+        <select class="select" id="trialSel" onchange="onchangeTrial()"></select>
+
+        <button onclick="startExperiment(event)" onkeydown="ignore(event);" onkeyup="ignore(event);">GO</button>
+
+        <button onclick="downloadLogs(event)" onkeydown="ignore(event)" onkeyup="ignore(event)">Download log file</button>
+
+      </form>
+    </div>
+    <div id="instr">
+    </div>
+    <div id="scene">
+    </div>
+  </body>
+
+</html>

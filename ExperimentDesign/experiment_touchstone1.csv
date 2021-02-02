@@ -1,0 +1,15 @@
+Participant,Practice,Block,Trial,VV,OC
+0,true,0,0,Size,Large
+0,true,0,1,Size,Medium
+0,true,0,2,Size,Small
+0,false,1,0,Size,Large
+0,false,1,1,Size,Large
+0,false,0,0,Color,Large
+0,false,0,1,Color,Small
+0,false,3,0,ColorSize,Medium
+0,false,3,1,ColorSize,Medium
+1,true,0,0,Color,Large
+1,true,0,1,Color,Medium
+1,true,0,2,Color,Small
+1,false,1,0,Color,Large
+1,false,1,1,Color,Small
